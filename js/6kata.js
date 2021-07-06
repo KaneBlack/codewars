@@ -15,3 +15,27 @@
 // function createPhoneNumber(numbers){
 // 	return numbers.join('').replace(/^(\d{3})(\d{3})(\d{4}).*/,"($1) $2-$3"); 
 //    }
+
+
+
+// Take a Ten Minute Walk
+// https://www.codewars.com/kata/54da539698b8a2ad76000228
+
+// function isValidWalk(walk) {
+// 	if(walk.length != 10) return false
+	
+// 	const objList = {
+// 	  'n' : 0,
+// 	  's' : 0,
+// 	  'w' : 0,
+// 	  'e' : 0,
+// 	}
+	
+// 	let uniqueNum = [...new Set(walk)]
+// 	for(let key in objList) {
+// 	  for(let i = 0;i < walk.length;i++) {
+// 		if(key == walk[i]) objList[key] += 1
+// 	  }
+// 	}
+// 	return objList['n'] == objList['s'] && objList['e'] == objList['w'] ? true : false
+//   }
