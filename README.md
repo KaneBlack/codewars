@@ -1,3 +1,7 @@
 # Codewars - JS
-https://www.codewars.com/users/KaneBlack
-![code wars badge](https://www.codewars.com/users/KaneBlack/badges/large)
+![codewars](https://www.codewars.com/users/KaneBlack/badges/large)
+
+<br/>
+<p>
+	Account link [here](https://www.codewars.com/users/KaneBlack)
+</p>
