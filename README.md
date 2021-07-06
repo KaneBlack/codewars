@@ -1,7 +1,8 @@
 # Codewars - JS
-![codewars](https://www.codewars.com/users/KaneBlack/badges/large)
+
+<img src='https://www.codewars.com/users/KaneBlack/badges/large' alt='logo'>
 
 <br/>
-<p>
-	Account link [here](https://www.codewars.com/users/KaneBlack)
-</p>
+<br/>
+
+[Account link here](https://www.codewars.com/users/KaneBlack)
