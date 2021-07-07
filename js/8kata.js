@@ -51,3 +51,47 @@
 // function even_or_odd(number) {
 //     return number % 2 === 0 ? 'Even' : 'Odd'
 // }
+
+
+
+// Sum Arrays
+// https://www.codewars.com/kata/53dc54212259ed3d4f00071c
+
+// function sum (numbers) {
+//     "use strict";
+
+//     return numbers.reduce( (a, b) => a + b, 0 )
+// };
+
+
+
+// Counting sheep...
+// https://www.codewars.com/kata/54edbc7200b811e956000556
+
+// function countSheeps(arrayOfSheep) {
+// 	const countArr = arrayOfSheep.map( a => {
+// 	  return +a ? 1 : 0
+// 	} ).reduce( (a, b) => a + b )
+
+// 	return countArr
+//   }
+
+
+
+// DNA to RNA Conversion
+// https://www.codewars.com/kata/5556282156230d0e5e000089
+
+// function DNAtoRNA(dna) {
+// 	return dna.split('').map(item => {
+// 		return item === 'T' ? 'U' : item
+// 	}).join('');
+// }
+
+
+
+// Return Negative
+// https://www.codewars.com/kata/55685cd7ad70877c23000102
+
+// function makeNegative(num) {
+// 	return -Math.abs(num)
+//   }
