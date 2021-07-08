@@ -88,3 +88,59 @@
 
 // 	return a
 // }
+
+
+
+// Vowel Count
+// https://www.codewars.com/kata/54ff3102c1bad923760001f3
+
+// function getCount(str) {
+// 	return (str.match(/[aeiou]/ig) || []).length;
+// }
+
+
+
+// Highest and Lowest
+// https://www.codewars.com/kata/554b4ac871d6813a03000035
+
+// function highAndLow(numbers) {
+// 	const fNum = numbers.split(' ').sort((a,b) => a - b);
+// 	const res = [fNum[0],fNum[fNum.length - 1]].reverse().join(' ')
+
+// 	return res
+// }
+
+
+
+// Complementary DNA
+// https://www.codewars.com/kata/554e4a2f232cdd87d9000038
+
+// function DNAStrand(dna) {
+// 	return dna.split('').map(i => {
+// 		switch (i) {
+// 			case 'T':
+// 				return 'A'
+// 				break;
+// 			case 'A':
+// 				return 'T'
+// 				break;
+// 			case 'C':
+// 				return 'G'
+// 				break;
+// 			case 'G':
+// 				return 'C'
+// 				break
+// 			default:
+// 				return i
+// 		}
+// 	}).join('')
+// }
+
+
+
+// Sum of two lowest positive integers
+// https://www.codewars.com/kata/558fc85d8fd1938afb000014
+
+// function sumTwoSmallestNumbers(numbers) {
+// 	return numbers.sort((a,b) => (a > b) ? 1 : (a == b) ? 0 : -1).slice(0,2).reduce((a,b) => a + b)
+// }
