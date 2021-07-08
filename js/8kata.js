@@ -95,3 +95,45 @@
 // function makeNegative(num) {
 // 	return -Math.abs(num)
 //   }
+
+
+
+// Convert number to reversed array of digits
+// https://www.codewars.com/kata/5583090cbe83f4fd8c000051
+
+// function digitize(n) {
+// 	return String(n).split('').reverse().map(i => Number(i))
+// }
+
+
+
+// Find the smallest integer in the array
+// https://www.codewars.com/kata/55a2d7ebe362935a210000b2
+
+// class SmallestIntegerFinder {
+// 	findSmallestInt(args) {
+// 		return args.sort((a,b) => a - b)[0]
+// 	}
+// }
+
+
+
+// Grasshopper - Summation
+// https://www.codewars.com/kata/55d24f55d7dd296eb9000030
+
+// var summation = function (num) {
+// 	let res = 0;
+// 	for (let i = 0; i < num; i++) {
+// 		res += i + 1
+// 	}
+// 	return res
+// }
+
+
+
+// L1: Set Alarm
+// https://www.codewars.com/kata/568dcc3c7f12767a62000038
+
+// function setAlarm(employed,vacation) {
+// 	return employed && !vacation ? true : false
+// }
