@@ -25,3 +25,26 @@
 
 // 	return domain;
 // }
+
+
+
+// Directions Reduction
+// https://www.codewars.com/kata/550f22f4d758534c1100025a
+
+// function dirReduc(arr) {
+// 	const direction = {
+// 		NORTH: 'SOUTH',
+// 		SOUTH: 'NORTH',
+// 		EAST: 'WEST',
+// 		WEST: 'EAST'
+// 	}
+
+// 	return arr.reduce((acc,el) => {
+// 		if (acc[acc.length - 1] === direction[el])
+// 			acc.pop()
+// 		else
+// 			acc.push(el)
+// 		return acc
+// 	},[])
+
+// }
