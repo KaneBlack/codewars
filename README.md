@@ -16,3 +16,5 @@
 [6 kata](./js/6kata.js)
 
 [5 kata](./js/5kata.js)
+
+[4 kata](./js/4kata.js)
