@@ -144,3 +144,16 @@
 // function sumTwoSmallestNumbers(numbers) {
 // 	return numbers.sort((a,b) => (a > b) ? 1 : (a == b) ? 0 : -1).slice(0,2).reduce((a,b) => a + b)
 // }
+
+
+
+// Exes and Ohs
+// https://www.codewars.com/kata/55908aad6620c066bc00002a
+
+// function XO(str) {
+// 	let x = 0,o = 0;
+// 	str.toLowerCase().split('').map(i => {
+// 		i === 'x' ? x += 1 : i === 'o' ? o += 1 : i
+// 	})
+// 	return x === o ? true : false
+// }
